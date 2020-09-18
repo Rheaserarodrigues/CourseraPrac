@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+body {
+  background-color: #d8d3cd;
+}
+.foodelementbox {
+  background-color: #f69e7b;
+  font-size: 20px;
+  margin-bottom: 30px;
+  top: 0px;
+  left: 0px;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+.back {
+  background-color: #f69e7b;
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: 100%;
+}
+.position {
+  background-color: #16817a;
+  font-size: 20px;
+  height: 24px;
+  width: 100px;
+  border: 3px solid black;
+  position: absolute;
+  margin-left: 298px;
+  z-index: +100;
+  font-family: "Roboto Slab", serif;
+}
+.container {
+  width: 400px;
+  display: inline-block;
+  margin: 30px !important;
+  border: 1px solid black;
+  height: 700px;
+  position: relative;
+}
+
+.centering {
+  text-align: center;
+}
+
+/*@media (min-width: 992px){
+	
+
+.position{
+	background-color:#16817A;
+	font-size: 20px;
+	height:24spx;
+	width:100px;
+	border: 3px solid black;
+	top:;
+	left:320px;	
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+}
+.container{
+	
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 30px; 
+	border: 1px solid black;
+	width:33.33%;
+	height:100px;
+	float: left;
+	left:20px;
+	position: relative;
+
+
+}
+
+}*/
+@media (max-width: 767px) {
+  .position {
+    background-color: #16817a;
+    font-size: 20px;
+    height: 24px;
+    width: 100px;
+    border: 3px solid black;
+    position: absolute;
+    z-index: +100;
+    margin-left: 268px;
+    font-family: "Roboto Slab", serif;
+  }
+  .container {
+    margin: 30px auto;
+    border: 1px solid black;
+    width: 370px;
+    height: 650px;
+
+    position: relative;
+  }
+  .foodelementbox {
+    background-color: #f69e7b;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+  }
+}
